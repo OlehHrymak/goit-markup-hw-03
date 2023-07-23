@@ -161,6 +161,7 @@ color: var(--ocean-cl);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
+  min-width: 169px;
 }
 
 .hero-btn:hover {
@@ -247,6 +248,7 @@ width: calc((100% - 2 * 24px )/ 3);
 .team {
   background-color: var(--cloud-cl);
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   color: var(--navy-blue-modal-cl);
@@ -272,6 +274,14 @@ width: calc((100% - 2 * 24px )/ 3);
 .team-img {
   margin-bottom: 32px;
 }
+
+.team-conteiner {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-subtitle {
   color: var(--navy-blue-modal-cl);
   text-align: center;
@@ -307,7 +317,7 @@ width: calc((100% - 2 * 24px )/ 3);
   text-transform: uppercase;
   max-width: 115px;
   display: inline-block;
-  margin-bottom: -16px;
+  margin-bottom: 16px;
 }
 .footer-logo-accent {
   color: var(--cloud-cl);
