@@ -276,7 +276,7 @@ width: calc((100% - 2 * 24px )/ 3);
 }
 
 .team-conteiner {
-  display:block;
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -386,6 +386,14 @@ border: 1px solid var(--cornflower-cl);
 }
 .portf-item {
 }
+.conteiner-portf-item {
+  display: block;
+  padding-top: 32px 16px;
+  border: 1px solid var(--cornflower-cl);
+  border-top: none;
+  margin-bottom: 8px
+}
+
 .portf-img {
   margin-bottom: 32px;
   text-align: center;
