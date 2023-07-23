@@ -406,7 +406,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
+text-align: left;
 margin-bottom: 8px;
 }
 .portf-item-text {
@@ -415,5 +415,5 @@ color: var(--main-cl);
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-text-align: center;
+text-align:nleft;
 }
